@@ -59,7 +59,7 @@ const config: webpack.Configuration = {
   context: path.resolve(__dirname),
   output: {
     path: path.join(__dirname, 'dist'),
-    publicPath: './',
+    publicPath: __DEVELOPMENT__ ? '/' : './',
     filename: __DEVELOPMENT__ ? 'app.[name].js' : 'app.[name].[contenthash].js',
   },
   module: {
