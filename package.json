@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "NODE_ENV=development webpack-dev-server",
-    "build": "NODE_ENV=production webpack",
+    "build": "NODE_ENV=production PUBLIC_PATH='/geo-buffer/' webpack",
     "test": "jest",
     "lint": "eslint -c .eslintrc.js --ext .ts --ext .tsx src",
     "lint:fix": "eslint -c .eslintrc.js --ext .ts --ext .tsx src --fix --quiet",
@@ -32,7 +32,7 @@
   "bugs": {
     "url": "https://github.com/vredsun/geo-buffer/issues"
   },
-  "homepage": "https://github.com/vredsun/geo-buffer#readme",
+  "homepage": "https://vredsun.github.io/geo-buffer/",
   "devDependencies": {
     "@babel/core": "^7.7.7",
     "@babel/plugin-proposal-class-properties": "^7.7.4",

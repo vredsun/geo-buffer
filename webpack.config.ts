@@ -17,6 +17,7 @@ const getPlugins = () => {
       __SERVER__: false,
       __DEVELOPMENT__: __DEVELOPMENT__,
       __DEVTOOLS__: __DEVELOPMENT__,
+      PUBLIC_PATH: JSON.stringify(process.env.PUBLIC_PATH),
     }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'index.hbs'),
