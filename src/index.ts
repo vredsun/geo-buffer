@@ -6,7 +6,7 @@ console.time('a');
 const a = createBuffer(testLineGeoSimple, 10);
 console.timeEnd('a');
 // test
-console.info({ a, 1 });
+console.info({ a, qwe: 2 });
 
 renderLines(testLineGeoSimple, a);
 
