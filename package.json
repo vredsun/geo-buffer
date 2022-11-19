@@ -57,7 +57,7 @@
     "eslint-plugin-react": "^7.17.0",
     "fork-ts-checker-webpack-plugin": "^3.1.1",
     "gh-pages": "^2.2.0",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "husky": "^4.0.1",
     "jest": "^24.9.0",
     "jest-cli": "^24.9.0",
@@ -71,7 +71,7 @@
     "typescript": "^3.7.4",
     "webpack": "^4.41.5",
     "webpack-bundle-analyzer": "^3.6.0",
-    "webpack-cli": "^3.3.10",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.10.1"
   }
 }
